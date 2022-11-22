@@ -1,0 +1,90 @@
+.premicao {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #fff;
+  margin-bottom: 200px;
+}
+
+.premicao h1 {
+  font-size: 60px;
+}
+
+.premio{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+}
+
+.premicao .premios img {
+  height: 200px;
+  padding: 30px;
+  display: flex;
+  position: relative;
+  left: 30px;
+}
+
+.premicao .premio h1 {
+  margin-bottom: 100px;
+}
+
+.premicao .premio .img {
+  height: 100px;
+}
+
+.sansumg{
+  position: relative;
+  height: 100px;
+  width: 280px;
+  padding-bottom: 20px;
+}
+
+.apple{
+  position: relative;
+  height: 100px;
+  width: 280px;
+  padding-bottom: 20px;
+}
+
+.JBL{
+  position: relative;
+  padding-bottom: 20px;
+  height: 100px;
+  width: 280px;
+
+}
+
+h1{
+  position: relative;
+  padding-top: 2px;
+  height: 20px;
+}
+
+.primeiro-premio{
+  position: relative;
+  height: 100px;
+  width: 280px;
+  padding-bottom: 20px;
+  top: 30px;
+}
+
+.qualidade{
+  position: relative;
+  height: 100px;
+  width: 280px;
+  padding-bottom: 20px
+}
+
+.inovador{
+  position: relative;
+  height: 100px;
+  width: 280px;
+  padding-bottom: 20px
+}
+
+.titulo-premio{
+  padding-top: 20px;
+  justify-content: center;
+}

@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.navegacao {
+  background-color: black;
+  color: white;
+  font-size: 25px;
+  height: 70px;
+  display: flex;
+  padding-left: 700px;
+  justify-content: center;
+  align-items: center;
+}
+
+.navegacao ol {
+  list-style-type: none;
+  display: flex;
+  gap: 90px;
+}
+
+.navegacao ol li {
+  padding: 5px;
+ 
+  color: white;
+  border-radius: 10px;
+}
+
+.navegacao ol li:hover {
+  color: #c9c9cb;
+  cursor: pointer;
+  transition: 600ms;
+  
+}
+
+.navegacao a{
+  text-decoration: none;
+}
+
+.containe {
+  background-color: black;
+  color: white;
+  height: 500px;
+}
+
+.fone-left {
+  position: relative;
+  top: 150px;
+  height: 400px;
+  left: 650px;
+}
+
+.fone-right {
+  position: relative;
+  transform: rotate(17deg);
+  height: 400px;
+  right: 100px;
+  bottom: 0px;
+  left: 600px;
+}
+
+.containe .text {
+  position: absolute;
+  right: 100px;
+  bottom: 100px;
+  width: 500px;
+  left: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 80px;
+}
+
+.containe .text h1 {
+  font-size: 35px;
+  color: white;
+}
+
+.containe .text h2 {
+  color: #1f41ff;
+  font-size: 30px;
+}
+
+.containe .text p {
+  color: white;
+  text-align: start;
+  font-size: 16px;
+}
+
+.containe .text a {
+  padding: 10px 60px;
+  border-radius: 20px;
+  background-color: #06187B;
+  color: white;
+  margin-top: 30px;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 800;
+}
+
+.sobre {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: end;
+  align-items: center;
+}
+
+.sobre img {
+  margin-top: 100px;
+  margin-right: 100px;
+  height: 50%;
+}
+
+.sobre .texto {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 50px;
+}
+
+.sobre .texto h1 {
+  font-size: 50px;
+}
+
+.sobre .texto h2 {
+  color: #06187b;
+  font-size: 25px;
+}
+
+.sobre .texto p {
+  font-size: 19px;
+}
+
+.sobre .png {
+  padding-top: 1px;
+}
+
+.bnt a {
+  padding: 10px 60px;
+  border-radius: 20px;
+  background-color: #06187B;
+  color: white;
+  margin-top: 30px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.sobreNois{
+  text-align: center;
+  position: relative;
+  top: 70px;
+}
+
+
+
+.sobreNois p{
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: justify;
+  
+}
